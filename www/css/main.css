@@ -1,0 +1,63 @@
+@font-face{
+	font-family: "robada";
+	src: url("../fontes/robada.woff")
+}
+body{
+	font-family: "robada","Trebuchet MS";
+	background: #ED5E1F;
+}
+section.calculadora{
+	justify-content: center;
+	background: white;
+}
+section.calculadora div img{
+	margin-left: 1.5vw;
+	margin-top: 1.5vw;
+	width: 2vw;
+	height: 2vw;
+}
+section.calculadora p.calculo{
+	text-align: right;
+	font-size: 1.2em;
+	height: 6.5vh;
+	width: 100vw;
+	line-height: 7.5vh;
+	padding-right: 5vw;
+	box-sizing: border-box;
+}
+section.calculadora p.resultado{
+	text-align: right;
+	font-size: 2.8em;
+	color: white;
+	background: #6732FF;
+	height: 16.5vh;
+	width: 100vw;
+	line-height: 17.5vh;
+	padding-right: 5vw;
+	box-sizing: border-box;
+	margin-bottom: 2vh;
+}
+section.calculadora ul{
+	font-size: 2.8em;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+section.calculadora ul li{
+	color: rgba(0,0,0,0.7);
+	border: 1px solid rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	height: 15vh;
+	width: 25vw;
+	line-height: 15vh;
+}
+section.calculadora ul li.zero{
+	width: 50vw;
+}
+section.calculadora ul li.igual{
+	color: white;
+	background: #F8506B;
+}
+section.calculadora ul li.plus{
+	border-top: none;
+}
